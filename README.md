@@ -16,11 +16,13 @@ The return rate distribution of financial markets are almost always fat-tailed a
 Ordinal patterns distribution and transfer probability matrix for 1-min gold data. We can also use moving average windows to reduce noise on our data. The window size is calculated using a Kramers–Moyal expansion approach resulting in an optimal window size of 10 minutes.
 
 Without moving average:
+
 ![alt text](figs/2-1.png)
 
 ![alt text](figs/2-2.png)
 
 Because of the fast methods used for the ordinal patterns, we can use higher length permutations too.
+
 ![alt text](figs/2-3.png)
 
 ![alt text](figs/2-4.png)
